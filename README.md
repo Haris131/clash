@@ -8,12 +8,6 @@
 
 # Openclash Config
 
-## Cara Install
-
-```sh
-curl -sLO 'https://raw.githubusercontent.com/Haris131/clash/main/openclash.sh' && bash openclash.sh install
-```
-
 ## Openclash
 
 Plugin ini adalah klien Clash yang bisa dijalankan di termux. Kompatibel dengan Shadowsocks ShadowsocksR, Vmess, Trojan, Snell dan protokol lainnya, dan mengimplementasikan proxy kebijakan sesuai dengan konfigurasi aturan yang fleksibel.
