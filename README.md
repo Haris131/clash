@@ -6,8 +6,6 @@
    - [Snell](#snell)
    - [Trojan](#trojan)
 
-# Openclash Config
-
 ## Openclash
 
 Plugin ini adalah klien Clash yang bisa dijalankan di termux. Kompatibel dengan Shadowsocks ShadowsocksR, Vmess, Trojan, Snell dan protokol lainnya, dan mengimplementasikan proxy kebijakan sesuai dengan konfigurasi aturan yang fleksibel.
@@ -84,7 +82,6 @@ Plugin ini adalah klien Clash yang bisa dijalankan di termux. Kompatibel dengan 
 ```
 * Vmess gRPC bug SNI
 ```yaml
-proxies:
   - name: vmess grpc SNI
     server: aaa.bbb.ccc.ddd
     port: 443
@@ -101,7 +98,6 @@ proxies:
 ```
 * Vmess gRPC bug CDN
 ```yaml
-proxies:
   - name: vmess grpc CDN
     server: IPCDN/BUGCDN.COM
     port: 443
